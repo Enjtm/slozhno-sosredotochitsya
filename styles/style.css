@@ -21,6 +21,7 @@
   align-items: center;
   min-block-size: 668px;
   padding: 10px;
+  block-size: 100vh;
 }
 
 .decorated-zone::after{
@@ -54,7 +55,7 @@
   font-family: var(--main-font);
   font-weight: 400;
   line-height: 25px;
-  margin-inline-end: 9px;
+  margin-right: 9px;
   position: absolute;
 }
 
@@ -137,6 +138,11 @@ button:disabled {
 
 .title-decor {
   background-color: var(--accent-color);
+  font-size: 18px;
+}
+
+.how-content_subtitle{
+  background-color: var(--accent-color);
 }
 
 .section_title-item {
@@ -184,10 +190,21 @@ button:disabled {
   color: var(--decor-color);
   line-height: 23.4px;
   font-size: 18px;
+  grid-area: h2-how;
+}
+
+.how-content_subtitle{
+  grid-area: h3-how;
+  font-size: 1em;
+}
+
+.how__list-item{
+  grid-area: ul-how;
 }
 
 h3.title-decor {
   margin-bottom: 10px;
+  font-size: 1em;
 }
 
 .content_title {
@@ -197,10 +214,6 @@ h3.title-decor {
 .section-list {
   display: grid;
   gap: 20px;
-}
-
-h3.title-decor.how_content_subtitle {
-  margin-bottom: 20px;
 }
 
 .gallery {
@@ -221,6 +234,7 @@ h3.title-decor.how_content_subtitle {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  block-size: 100vh;
 }
 
 .footer__title {
@@ -261,7 +275,7 @@ h3.title-decor.how_content_subtitle {
     max-width: 236px;
   }
 
-  .questions_section {
+  .questions {
     margin-block-end: 80px;
   }
 
@@ -272,6 +286,9 @@ h3.title-decor.how_content_subtitle {
   
   .how__list {
     grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+    "h2-how h3-how"
+    "h2-how ul-how"
   }
 
   .gallery {
