@@ -214,6 +214,10 @@ h3.title-decor {
 .section-list {
   display: grid;
   gap: 20px;
+  grid-template-areas:
+        "h2-how"
+        "h3-how"
+        "ul-how";
 }
 
 .gallery {
