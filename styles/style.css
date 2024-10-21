@@ -150,6 +150,10 @@ button:disabled {
   margin-block-end: 10px;
 }
 
+h2.section_title{
+  margin-bottom: 20px;
+}
+
 .content-section {
   padding: 40px 10px;
 }
