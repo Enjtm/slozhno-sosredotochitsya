@@ -2,7 +2,7 @@
 
 .page {
   color: var(--content-subtitle-color);
-  font-family: var(--main-font, sans-serif);
+  font-family: var(--main-font, 'Roboto', 'Arial', 'Helvetica Neue', sans-serif);
   font-size: 18px;
   line-height: 23.4px;
   background-color: var(--bg-color, #000028);
@@ -35,7 +35,7 @@
   align-items: center;
   gap: 10px;
   color: var(--rec-color);
-  font-family: var(--main-font);
+  font-family: var(--main-font, 'Roboto', 'Arial', 'Helvetica Neue');
   font-weight: 400;
   line-height: 25px;
   margin-inline-end: 9px;
@@ -133,7 +133,7 @@ button:disabled {
 
 .header__title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  font-family: var(--main-font);
+  font-family: var(--main-font, 'Roboto', 'Arial', 'Helvetica Neue');
   font-weight: 700;
   line-height: 82.5%;
   color: var(--title-color);
@@ -143,7 +143,7 @@ button:disabled {
 .header-paragraph {
   color: var(--content-subtitle-color);
   font-weight: 700;
-  font-family: var(--main-font);
+  font-family: var(--main-font, 'Roboto', 'Arial', 'Helvetica Neue');
   line-height: 23.4px;
   align-items: center;
   justify-self: end;
@@ -205,7 +205,7 @@ button:disabled {
 }
 
 .content-paragraph {
-  font-family: var(--main-font);
+  font-family: var(--main-font, 'Roboto', 'Arial', 'Helvetica Neue');
   font-style: normal;
   font-weight: 400;
   line-height: 23.4px;
@@ -271,7 +271,7 @@ h3.title-decor.content_subtitle-section_how {
 
 .footer__title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  font-family: var(--main-font);
+  font-family: var(--main-font, 'Roboto', 'Arial', 'Helvetica Neue');
   font-weight: 700;
   line-height: 82.5%;
   justify-self: center;
