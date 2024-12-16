@@ -79,8 +79,10 @@
 }
 
 .header__theme-menu {
+  display: grid;
   align-items: center;
   justify-self: end;
+  gap: 10px;
 }
 
 .header__theme-menu-list {
@@ -145,8 +147,7 @@ button:disabled {
   line-height: 23.4px;
   align-items: center;
   justify-self: end;
-  margin-left: 10px;
-  margin-right: 10px;
+  
 }
 
 .title-decor {
@@ -165,6 +166,10 @@ button:disabled {
 .card__item{
   display: grid;
   gap: 20px;
+}
+
+.card__item:sttitle-decor{
+  gap:0;
 }
 
 .what{
@@ -235,6 +240,8 @@ h3.title-decor {
   display: grid;
   gap: 20px;
 }
+
+
 
 h3.title-decor.content_subtitle-section_how {
   margin-bottom: 20px;
@@ -314,6 +321,11 @@ h3.title-decor.content_subtitle-section_how {
   .section_how__list {
     grid-template-columns: 1fr 2fr;
   }
+
+  .what {
+    margin-bottom: 80px;
+  }
+
 
   .gallery {
     grid-template-columns: repeat(3, 1fr);
