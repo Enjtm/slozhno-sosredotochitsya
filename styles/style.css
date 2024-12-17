@@ -53,11 +53,17 @@
   box-shadow: 0 0 4px 2px var(--rec-color);
 }
 
+.decorated-zone {
+  position: relative;
+}
+
 .decorated-zone::before {
   content: "";
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 10px;
+  left: 10px;
+  bottom: 10px;
+  top:10px;
   inline-size: 25px;
   block-size: 25px;
   border-inline-start: 1px solid var(--decor-color);
@@ -68,8 +74,10 @@
 .decorated-zone::after {
   content: "";
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 10px;
+  left: 10px;
+  bottom: 20px;
+  top:10px;
   inline-size: 25px;
   block-size: 25px;
   border-block-start: 1px solid var(--decor-color);
@@ -283,6 +291,20 @@ h3.title-decor.content_subtitle-section_how {
 @media (min-width: 768px) {
   .decorated-zone {
     min-block-size: 1024px;
+  }
+
+  .decorated-zone::before{
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+    top:20px;
+  }
+
+  .decorated-zone::after{
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+    top:20px;
   }
 
   .header {
