@@ -29,8 +29,8 @@
 
 .decorated-element-rec {
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 10px;
+  top: 10px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -285,6 +285,12 @@ h3.title-decor.content_subtitle-section_how {
 }
 
 @media (min-width: 768px) {
+
+  .decorated-element-rec{
+    right: 20px;
+    top: 20px;
+  }
+
   .decorated-zone {
     min-block-size: 1024px;
   }
