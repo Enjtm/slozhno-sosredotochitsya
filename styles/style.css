@@ -171,20 +171,20 @@ button:disabled {
   padding: 40px 10px;
 }
 
-.card__item{
+.card__item {
   display: grid;
   gap: 20px;
 }
 
-.what{
+.what {
   margin-bottom: 50px;
 }
 
-.card{
+.card {
   margin-bottom: 50px;
 }
 
-.what__item{
+.what__item {
   display: grid;
   gap: 20px;
 }
@@ -236,7 +236,7 @@ h3.title-decor {
   margin-bottom: 20px;
 }
 
-.how-content_subtitle{
+.how-content_subtitle {
   background-color: var(--accent-color);
 }
 
@@ -286,7 +286,7 @@ h3.title-decor.content_subtitle-section_how {
 
 @media (min-width: 768px) {
 
-  .decorated-element-rec{
+  .decorated-element-rec {
     right: 20px;
     top: 20px;
   }
@@ -295,14 +295,14 @@ h3.title-decor.content_subtitle-section_how {
     min-block-size: 1024px;
   }
 
-  .decorated-zone::before{
+  .decorated-zone::before {
     right: 20px;
     left: 20px;
     bottom: 20px;
     top:20px;
   }
 
-  .decorated-zone::after{
+  .decorated-zone::after {
     right: 20px;
     left: 20px;
     bottom: 20px;
@@ -436,7 +436,7 @@ h3.title-decor.content_subtitle-section_how {
     grid-template-columns: 315px 1fr;
   }
 
-  .card__item{
+  .card__item {
     min-width: 650px;
   }
 
@@ -448,7 +448,7 @@ h3.title-decor.content_subtitle-section_how {
     max-width: 315px;
   }
 
-  .what__item{
+  .what__item {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     gap: 20px;
